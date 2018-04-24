@@ -182,9 +182,13 @@ def q5_parte(filepath1, filepath2):
 	print("mape = " + str(mape))
 	epsilon = Y-Y_pred
 	# fnhat = findFnHat(epsilon)
-	pnhat = findPnHat(epsilon)
+	# pnhat = findPnHat(epsilon)
 	# plotfig(np.array(epsilon), np.array(fnhat),'residuals','fnhat')
-	plotfig(np.array(epsilon), np.array(pnhat),'residuals','pnhat')
+	plt.hist(epsilon)
+	plt.xlabel('epsilon')
+	plt.ylabel('probability')
+	plt.show()
+	# plotfig(np.array(epsilon), np.array(pnhat),'residuals','pnhat')
 
 if __name__ == "__main__":
 	# q5_parta()
