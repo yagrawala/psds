@@ -82,6 +82,8 @@ def plot_graph(X_range, Y_vals, X_label="X-Axis", Y_label="Y-Axis", showLegend=F
 		plt.legend()
 	plt.show()
 
+
+
 ######################################
 ## get generic stats for some data 	##
 ######################################
