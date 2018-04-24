@@ -1,0 +1,340 @@
+L_language_name,f0_
+Fortran,965
+BitBake,288
+Opa,33
+Perl6,2868
+Processing,1180
+DM,248
+Pep8,17
+Lasso,126
+Cirru,118
+Meson,260
+Crystal,36
+Agda,30
+Genie,11
+Idris,62
+Nit,15
+IGOR Pro,14
+Tea,3
+Objective-J,102
+Rust,981
+Forth,689
+BlitzBasic,190
+HLSL,361
+Modula-2,65
+Metal,15
+Fantom,22
+Yacc,7906
+XSLT,13541
+SourcePawn,4841
+AGS Script,223
+ANTLR,911
+RenderScript,94
+UrWeb,10
+Jupyter Notebook,601
+Standard ML,959
+Ballerina,2
+AMPL,344
+Elm,390
+FLUX,391
+AngelScript,109
+HTML,92882
+Groff,14257
+Scheme,2323
+PureBasic,98
+LilyPond,122
+Bro,24
+CWeb,17
+Stan,5
+PogoScript,4
+Papyrus,1
+Gettext Catalog,172
+Parrot,41
+HyPhy,8
+Grace,3
+VimL,8379
+Logos,2175
+Csound Document,22
+E,186
+Cycript,34
+Roff,4271
+LOLCODE,6
+ApacheConf,7091
+1C Enterprise,21
+Self,12
+GLSL,3129
+Elixir,736
+Zephir,49
+SaltStack,39
+ABAP,148
+Objective-C,40605
+Fancy,91
+Rebol,682
+Coq,248
+LSL,137
+Dylan,47
+wisp,5
+Protocol Buffer,4220
+Nginx,1263
+SQL,78
+ECL,7
+SuperCollider,1692
+Mathematica,822
+M,990
+SystemVerilog,289
+Shen,7
+Limbo,93
+Java,54808
+nesC,159
+D,2407
+Web Ontology Language,145
+VCL,52
+PigLatin,230
+Batchfile,29700
+Erlang,4890
+XML,616
+Oz,49
+OCaml,1934
+CLIPS,534
+C,83062
+QML,1014
+Scilab,7952
+Pascal,3203
+Ioke,24
+AutoHotkey,221
+P4,1
+Makefile,66680
+Objective-C++,5798
+IDL,891
+Redcode,76
+MQL4,1
+CMake,14995
+Matlab,3886
+Myghty,47
+MoonScript,39
+DCPU-16 ASM,27
+Red,33
+NSIS,4094
+Common Lisp,1753
+ooc,31
+Chapel,17
+PHP,45230
+TypeScript,2831
+Boo,108
+AppleScript,1660
+Modelica,49
+Cucumber,3125
+DOT,1469
+OpenSCAD,262
+xBase,104
+Vue,44
+SRecode Template,137
+wdl,2
+Squirrel,80
+X10,3
+PowerBuilder,3
+Perl 6,1302
+PAWN,180
+Liquid,342
+Ragel in Ruby Host,550
+TXL,12
+Factor,30
+PureScript,2
+UnrealScript,6083
+Clarion,126
+RobotFramework,97
+Ren'Py,3
+Csound,41
+Stata,176
+Nu,93
+Harbour,22
+mupad,30
+RUNOFF,2
+CSS,87426
+Puppet,4846
+XS,1158
+REXX,9
+Zimpl,7
+NetLogo,4
+XPages,2
+LLVM,654
+Game Maker Language,124
+Dart,812
+DTrace,1167
+Eiffel,382
+Alloy,21
+ChucK,21
+Jolie,6
+MTML,3
+Groovy,6347
+Haxe,938
+DIGITAL Command Language,1823
+Isabelle,49
+Jasmin,80
+FreeMarker,907
+Arduino,1585
+Turing,110
+Smali,76
+Opal,1
+MQL5,2
+Cap'n Proto,68
+Cool,11
+KRL,4
+CoffeeScript,13111
+ASP,9721
+Module Management System,843
+PostScript,2506
+Brainfuck,334
+Max,306
+Ragel,116
+J,87
+HCL,33
+SQF,15
+GAP,2342
+Nix,588
+Slash,228
+Xojo,1
+Io,253
+Racket,1307
+LFE,2
+PLpgSQL,2853
+LiveScript,721
+Kotlin,382
+SMT,64
+Frege,38
+Moocode,9
+Shell,154389
+Augeas,201
+Pike,37
+XC,117
+KiCad Layout,18
+Volt,11
+Go,8270
+PicoLisp,62
+Pan,69
+JFlex,19
+Oxygene,8
+Lua,7658
+Tcl,3860
+QMake,4225
+Thrift,1541
+Mirah,17
+PowerShell,6978
+Haskell,6469
+Eagle,334
+CartoCSS,88
+Ecl,16
+Rouge,3
+API Blueprint,50
+NewLisp,361
+Hy,52
+Julia,515
+Verilog,740
+TeX,8037
+Pure Data,336
+NetLinx,2
+Vim script,2295
+FORTRAN,1559
+F#,1069
+Bison,2073
+SAS,653
+AspectJ,407
+ColdFusion,532
+LookML,36
+Clean,88
+Mercury,133
+XProc,101
+REALbasic,3
+C++,66677
+Lex,7500
+Csound Score,27
+POV-Ray SDL,253
+WebIDL,92
+Click,33
+LabVIEW,3
+Nemerle,179
+Swift,1290
+Delphi,129
+GAMS,11
+Kit,4
+Visual Basic,3279
+Ada,1112
+Hack,174
+BlitzMax,18
+Assembly,20268
+SQLPL,2272
+Vala,844
+GCC Machine Description,132
+Filebench WML,1
+Python,108576
+Xtend,183
+NCL,12
+Propeller Spin,34
+Ceylon,38
+ShellSession,8
+Prolog,4211
+Mako,1164
+Inform 7,8
+MAXScript,182
+Common Workflow Language,6
+M4,7445
+Inno Setup,1523
+eC,666
+Logtalk,25
+COBOL,279
+Lean,103
+Emacs Lisp,7781
+Clojure,4394
+PLSQL,2566
+EmberScript,320
+Gosu,271
+Apex,140
+Pony,20
+RPC,47
+Ox,2
+,23160
+Smarty,4336
+ATS,2
+ActionScript,2823
+Terra,125
+Monkey,14
+JavaScript,126786
+Cuda,968
+Mask,297
+Nimrod,63
+WebAssembly,44
+R,3995
+Awk,11254
+Genshi,77
+Diff,317
+OpenEdge ABL,1020
+VHDL,457
+Graphviz (DOT),60
+Grammatical Framework,4
+Scala,6899
+Gnuplot,1070
+RAML,48
+KiCad,224
+JSONiq,154
+Nim,17
+Bluespec,8
+TLA,37
+APL,21
+Gherkin,1308
+Handlebars,1026
+Arc,326
+AutoIt,135
+C#,14900
+GDB,1784
+Smalltalk,1428
+XQuery,508
+Brightscript,28
+Rascal,53
+Component Pascal,50
+Glyph,1
+Ruby,82093
+Perl,43604
+GDScript,95
+ShaderLab,12
+Dogescript,2
+Golo,6

@@ -1,0 +1,341 @@
+L_language_name,cnt
+JavaScript,95199
+HTML,86595
+Shell,76870
+CSS,75845
+Python,59604
+Makefile,33391
+Ruby,31575
+Java,30756
+PHP,28606
+C++,25698
+C,25053
+Batchfile,15543
+C#,12226
+Objective-C,10496
+Go,9891
+CMake,9576
+,8007
+Perl,7761
+TypeScript,7138
+PowerShell,5421
+Vim script,5034
+M4,4418
+Roff,4395
+Swift,4277
+R,4056
+CoffeeScript,4007
+Lua,3615
+TeX,3575
+Jupyter Notebook,3501
+Assembly,3350
+Scala,3268
+XSLT,3244
+Groovy,3024
+Emacs Lisp,2697
+Smarty,2590
+Rust,2387
+Haskell,2354
+QMake,2288
+Matlab,2281
+Vue,2003
+GLSL,1953
+PLpgSQL,1895
+Kotlin,1764
+Objective-C++,1642
+Gherkin,1619
+Perl 6,1618
+ASP,1534
+Clojure,1484
+Yacc,1435
+Visual Basic,1341
+PLSQL,1281
+Awk,1260
+SQLPL,1168
+Lex,1134
+NSIS,1115
+Pascal,1114
+Prolog,1041
+Fortran,1036
+Elixir,975
+Puppet,952
+Tcl,910
+FreeMarker,834
+Erlang,823
+F#,822
+Scheme,820
+Smalltalk,817
+QML,747
+ApacheConf,743
+Mako,712
+OCaml,696
+Julia,667
+Common Lisp,647
+Inno Setup,617
+Cuda,589
+GDB,587
+ANTLR,571
+DIGITAL Command Language,546
+SourcePawn,539
+GAP,535
+HCL,529
+HLSL,516
+Nix,498
+Gnuplot,495
+M,484
+Thrift,483
+AppleScript,471
+D,460
+Dart,459
+Arduino,450
+PostScript,409
+ActionScript,406
+Meson,403
+Mathematica,398
+Processing,398
+Standard ML,378
+Logos,375
+ShaderLab,320
+Elm,304
+Verilog,302
+Vala,293
+Protocol Buffer,282
+VimL,269
+OpenEdge ABL,257
+LLVM,256
+Groff,256
+Haxe,237
+IDL,234
+DTrace,214
+Forth,210
+Scilab,206
+AngelScript,204
+Coq,198
+OpenSCAD,193
+Ada,193
+Crystal,193
+Nginx,192
+AMPL,192
+Racket,187
+AutoHotkey,187
+XS,186
+SaltStack,181
+Module Management System,179
+BitBake,178
+VHDL,171
+Rebol,157
+SystemVerilog,142
+SAS,142
+NewLisp,136
+API Blueprint,135
+Nim,132
+XQuery,129
+Liquid,127
+VCL,124
+UnrealScript,121
+PureBasic,119
+SuperCollider,114
+RPC,114
+PAWN,110
+Xtend,109
+Brainfuck,108
+Cap'n Proto,108
+PureScript,107
+ColdFusion,107
+Ragel,106
+Stata,105
+Max,93
+POV-Ray SDL,90
+RAML,89
+Apex,88
+Mask,86
+WebAssembly,86
+Terra,81
+1C Enterprise,81
+LiveScript,78
+MAXScript,78
+COBOL,78
+DM,77
+RobotFramework,74
+AGS Script,73
+Limbo,72
+AspectJ,72
+AutoIt,71
+Cucumber,69
+SQF,66
+Io,62
+CLIPS,60
+PigLatin,60
+Mercury,58
+xBase,58
+Arc,57
+Perl6,56
+Slash,54
+LilyPond,53
+eC,53
+SRecode Template,53
+Metal,52
+BlitzBasic,52
+Stan,51
+EmberScript,49
+Hack,48
+XProc,47
+FORTRAN,46
+JSONiq,46
+E,45
+RenderScript,45
+FLUX,44
+Squirrel,41
+Modula-2,40
+Modelica,39
+GDScript,39
+nesC,38
+LabVIEW,38
+Objective-J,38
+Clean,38
+Eagle,38
+Idris,36
+Agda,34
+Eiffel,34
+ABAP,33
+Rascal,33
+Common Workflow Language,33
+Clarion,33
+Lean,33
+GCC Machine Description,32
+Nextflow,31
+Augeas,31
+Game Maker Language,30
+XC,30
+Lasso,29
+SMT,29
+Hy,28
+LSL,27
+MoonScript,26
+Web Ontology Language,26
+Isabelle,26
+Pony,26
+Volt,26
+CartoCSS,24
+Jasmin,24
+Csound Document,24
+Csound,24
+Pan,23
+TLA,23
+Bro,23
+J,22
+KiCad,21
+CWeb,20
+Propeller Spin,20
+REXX,19
+Smali,19
+Click,18
+Pep8,18
+NCL,17
+Zephir,17
+WebIDL,16
+Component Pascal,16
+UrWeb,16
+Redcode,16
+Gosu,15
+APL,15
+Csound Score,15
+Red,15
+Papyrus,14
+GAMS,14
+Nearley,14
+wdl,14
+NetLogo,14
+Turing,14
+Factor,13
+Ballerina,13
+P4,13
+Pike,13
+Cool,13
+IGOR Pro,13
+Solidity,13
+Boo,12
+MQL4,12
+Handlebars,12
+Pure Data,11
+LOLCODE,11
+Xojo,11
+Ren'Py,11
+Oz,11
+Alloy,11
+Brightscript,11
+Fancy,11
+ChucK,11
+Genshi,11
+Uno,11
+Cycript,10
+Harbour,10
+mupad,10
+MQL5,10
+Zimpl,10
+Jolie,9
+Chapel,9
+Frege,8
+KiCad Layout,8
+Nemerle,8
+Ceylon,8
+Ragel in Ruby Host,8
+ATS,8
+HyPhy,8
+PicoLisp,7
+Cirru,7
+REALbasic,7
+Genie,7
+Filebench WML,7
+Parrot,7
+Dylan,7
+Logtalk,6
+Bluespec,6
+LFE,5
+X10,5
+ooc,5
+PowerBuilder,5
+NetLinx,5
+Grammatical Framework,5
+ECL,4
+DOT,4
+Inform 7,4
+Charity,4
+Kit,4
+Fantom,4
+EQ,3
+Mirah,3
+KRL,3
+Myghty,3
+Bison,3
+Shen,3
+Grace,3
+Dogescript,3
+BlitzMax,3
+Ox,3
+Self,3
+DataWeave,3
+XML,3
+Nu,2
+Opa,2
+Golo,2
+Oxygene,2
+LookML,2
+Rouge,2
+Nimrod,2
+ShellSession,2
+Monkey,2
+SQL,2
+MTML,1
+Befunge,1
+Opal,1
+Ring,1
+XPages,1
+Markdown,1
+wisp,1
+Nit,1
+Tea,1
+PogoScript,1
+NetLinx+ERB,1
+RUNOFF,1
+KiCad Schematic,1
