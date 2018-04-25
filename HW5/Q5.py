@@ -144,7 +144,8 @@ def q5_partc(filepath1, filepath2):
 	return sse, mape, Y, Y_pred
 
 def plotfig(X, Y, x_label, y_label):
-	plt.plot(X, Y, color='orange', linestyle='solid')
+	# plt.plot(X, Y, color='orange', linestyle='solid')
+	plt.scatter(X,Y, verts=np.hstack((X,Y)))
 	plt.xlabel(x_label)
 	plt.ylabel(y_label)
 	plt.show()
@@ -191,7 +192,7 @@ def q5_parte(filepath1, filepath2):
 	# plotfig(np.array(epsilon), np.array(pnhat),'residuals','pnhat')
 
 if __name__ == "__main__":
-	# q5_parta()
+	q5_parta()
 	# q5_parta_beta0()
 
 	# sse, mape, Y, Y_pred = q5_partc("DATAT/2016.csv", "DATAT/2017.csv")
@@ -210,7 +211,7 @@ if __name__ == "__main__":
 	# q5_partd("DATAT/2015_2016.csv", "DATAT/2017.csv")
 	# q5_partd("DATAT/2010_2016.csv", "DATAT/2017.csv")
 
-	q5_parte("DATAT/2016.csv", "DATAT/2017.csv")
-	# q5_partd("DATAT/2015_2016.csv", "DATAT/2017.csv")
-	# q5_partd("DATAT/2010_2016.csv", "DATAT/2017.csv")
+	# q5_parte("DATAT/2016.csv", "DATAT/2017.csv")
+	# q5_parte("DATAT/2015_2016.csv", "DATAT/2017.csv")
+	# q5_parte("DATAT/2010_2016.csv", "DATAT/2017.csv")
 
