@@ -135,24 +135,24 @@ def getStats( vals , printStats=False):
 # SSE = sum squared error
 def getSSE(Y, Y_pred):
 	SSE = 0
-    for i in range(0,len(Y)):
-        epis_val = Y[i][0] - Y_pred[i][0]
-        SSE += epis_val**2
+	for i in range(0,len(Y)):
+		epis_val = Y[i][0] - Y_pred[i][0]
+		SSE += epis_val**2
 
-    return SSE
+	return SSE
 
 # MAPE = mean average percentage error
 def getMAPE(Y, Y_pred):
 	MAPE_val = 0
-    count = 0
-    for i in range(0,len(Y)):
-        if Y[i][0] != 0:
-            map_val = abs((Y[i][0] - Y_pred[i][0])/Y[i][0])
-            MAPE_val += map_val
-            count += 1
+	count = 0
+	for i in range(0,len(Y)):
+		if Y[i][0] != 0:
+			map_val = abs((Y[i][0] - Y_pred[i][0])/Y[i][0])
+			MAPE_val += map_val
+			count += 1
 
-    MAPE = (MAPE_val*100/count)
-    return MAPE
+	MAPE = (MAPE_val*100/count)
+	return MAPE
 
 
 ##################################
@@ -160,7 +160,7 @@ def getMAPE(Y, Y_pred):
 ##################################
 # returns boolean, based on whether threshold matches
 def walds_test_1_population(x_data, true_val, thres):
-	print("\n==== Wald's Test for 2 Population ====")
+	print("\n==== Wald's Test for 1 Population ====")
 	# run the test
 	N = len( x_data )
 	[x_mean, x_var] = getStats( x_data )[:2]
