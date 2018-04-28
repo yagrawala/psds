@@ -158,6 +158,28 @@ def getMAPE(Y, Y_pred):
 ##################################
 ## all tests implemented here	##
 ##################################
+# returns boolean, based on whether threshold matches
+def walds_test_1_population(x_data, true_val, thres):
+	print("\n==== Wald's Test for 2 Population ====")
+	# run the test
+	N = len( x_data )
+	[x_mean, x_var] = getStats( x_data )[:2]
+	se = math.sqrt( x_var / N )
+	w = abs(x_mean - true_val) / se
+	result = ( w < thres )
+
+	# print info
+	print( "se     = " + str(se) )
+	print( "w      = " + str(w) )
+	print( "thres  = " + str(thres) )
+	if result:
+		print("result = Passed")
+	else:
+		print("result = Failed")
+	print("======================================\n")
+	return result
+
+
 # x_data, y_data should be numeric arrays of same length
 # returns boolean, based on whether threshold matches
 def walds_test_2_population(x_data, y_data, thres):
