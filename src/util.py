@@ -15,6 +15,7 @@ import math
 import numpy as np
 import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
 from sklearn.linear_model import LinearRegression
 
 
@@ -29,12 +30,14 @@ def read_horizontal_values(filename, delimiter=","):
 	vals = lines[0].split( delimiter )
 	return np.array(vals).astype(np.float)
 
-def read_2D_values(filename, delimiter=","):
-	lines = [line.rstrip('\n') for line in open(filename)]
-	vals = []
-	for line in lines:
-		vals.append( line.split( delimiter ) )
-	return np.array(vals).astype(np.float)
+def read_2D_values(filename, delimiter=",", npWanted=False):
+    lines = [line.rstrip('\n') for line in open(filename)]
+    vals = []
+    for line in lines:
+        vals.append( line.split( delimiter ) )
+    if npWanted:
+        vals = np.array(vals).astype(np.float)
+    return vals
 
 
 
@@ -46,41 +49,52 @@ def plot_normal(mu, sigma, label="data"):
 	plt.plot(x, mlab.normpdf(x, mu, sigma), label=label )
 	plt.show()
 
-def getYPlotObj(values, plot_type, label=" ", color="blue"):
-	return {
-		'values': np.array(values),
-		'type'  : plot_type,
-		'label' : label,
-		'color' : color
-	}
+def getYPlotObj(values, plot_type, label=False, color="blue"):
+    obj =  {
+        'values': np.array(values),
+        'type'  : plot_type,
+        'color' : color
+    }
+    if label:
+        obj['label'] = label
+    return obj
 
 def plot_graph(X_range, Y_vals, X_label="X-Axis", Y_label="Y-Axis", showLegend=False):
-	X_range = np.array( X_range )
-	for i in range(0, len(Y_vals)):
-		plot_type = Y_vals[i]['type']
-		y_values  = np.array( Y_vals[i]['values'] )
-		color     = Y_vals[i]['color']
-		label     = Y_vals[i]['label']
-		if plot_type == "line":
-			plt.plot(	X_range, 
-						y_values,
-						color=color,
-						label=label,
-						linestyle='solid'
-			)
-		if plot_type == "scatter":
-			plt.scatter(	X_range,
-							y_values,
-							color=color,
-							label=label,
-							s=10,
-							alpha=1
-			)
-	plt.xlabel( X_label )
-	plt.ylabel( Y_label )
-	if showLegend:
-		plt.legend()
-	plt.show()
+    X_range = np.array( X_range )
+    fig = plt.figure()
+    ax = plt.subplot(111)
+    for i in range(0, len(Y_vals)):
+        plot_type = Y_vals[i]['type']
+        y_values  = np.array( Y_vals[i]['values'] )
+        color     = Y_vals[i]['color']
+        if "label" in Y_vals[i].keys():
+            label = Y_vals[i]['label']
+        else:
+            label = ""
+        if plot_type == "line":
+            ax.plot(	X_range, 
+                        y_values,
+                        color=color,
+                        label=label,
+                        linestyle='solid'
+            )
+        if plot_type == "scatter":
+            ax.scatter(	X_range,
+                            y_values,
+                            color=color,
+                            label=label,
+                            s=10,
+                            alpha=1
+            )
+    plt.xlabel( X_label )
+    plt.ylabel( Y_label )
+    if showLegend:
+        fontP = FontProperties()
+        fontP.set_size('small')
+        box = ax.get_position()
+        ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+        ax.legend(loc='center left', bbox_to_anchor=(1, 0.5), prop=fontP)
+    plt.show()
 
 
 
@@ -101,7 +115,7 @@ def getMin( vals ):
 
 # vals should be a numeric array
 def getMax( vals ):
-	return np.amax( vals )
+	return np.amax( np.array(vals).astype(np.float) )
 
 # vals should be a numeric array
 def getStats( vals , printStats=False):
