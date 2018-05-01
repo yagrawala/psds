@@ -372,7 +372,7 @@ def permutation_test(x1, x2, noOfPerms = 1000000):
     for i in range(0,noOfPerms):
         perm = np.random.permutation(l)
         x1 = perm[0:len(x1)]
-        x2 = perm[len(x1):len(x2)]
+        x2 = perm[len(x1):len(x1)+len(x2)]
         mean1 = np.mean(x1)
         mean2 = np.mean(x2)
         t.append(abs(mean1-mean2))
@@ -389,3 +389,6 @@ def permutation_test(x1, x2, noOfPerms = 1000000):
     print("p-value from permutation test")
     print(p_value)
     return p_value
+
+
+    
