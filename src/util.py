@@ -49,7 +49,7 @@ def plot_normal(mu, sigma, label="data"):
 	plt.plot(x, mlab.normpdf(x, mu, sigma), label=label )
 	plt.show()
 
-def getYPlotObj(values, plot_type, label=False, color="blue"):
+def getYPlotObj(values, plot_type, label=False, color="blue", ls=False):
     obj =  {
         'values': np.array(values),
         'type'  : plot_type,
@@ -57,6 +57,8 @@ def getYPlotObj(values, plot_type, label=False, color="blue"):
     }
     if label:
         obj['label'] = label
+    if ls:
+        obj['ls'] = ls
     return obj
 
 def plot_graph(X_range, Y_vals, X_label="X-Axis", Y_label="Y-Axis", showLegend=False):
@@ -72,11 +74,14 @@ def plot_graph(X_range, Y_vals, X_label="X-Axis", Y_label="Y-Axis", showLegend=F
         else:
             label = ""
         if plot_type == "line":
+            ls = 'solid'
+            if "ls" in Y_vals[i].keys():
+                ls = Y_vals[i]['ls']
             ax.plot(	X_range, 
                         y_values,
                         color=color,
                         label=label,
-                        linestyle='solid'
+                        linestyle=ls
             )
         if plot_type == "scatter":
             ax.scatter(	X_range,
