@@ -359,36 +359,38 @@ def make_predictions(data, method="ewma", ewma_factor=0.5, season_factor=144, ar
 	print("average_error=", average_error)
 	return [average_error, errors, predictions]
 
-def permutation_test(x1, x2, noOfPerms = 1000000):
-    l = x1 + x2
-    mean1 = np.mean(x1)
-    mean2 = np.mean(x2)
-    delta = abs(mean1-mean2)
-    # random.shuffle(l)
-    t_obs = abs(delta)
-    print("t_obs = ")
-    print(t_obs)
-    t = []
-    for i in range(0,noOfPerms):
-        perm = np.random.permutation(l)
-        x1 = perm[0:len(x1)]
-        x2 = perm[len(x1):len(x1)+len(x2)]
-        mean1 = np.mean(x1)
-        mean2 = np.mean(x2)
-        t.append(abs(mean1-mean2))
-
-
-    # print(t[0:10])
-    count = 0
-    for t_i in t:
-        if(t_i>t_obs):
-            count = count + 1
-    # print("count =")
-    # print(count)
-    p_value = float(count)/len(t)
-    print("p-value from permutation test")
-    print(p_value)
-    return p_value
+# def permutation_test(x1, x2, noOfPerms = 1000000):
+#     l = x1 + x2
+#     mean1 = np.mean(x1)
+#     mean2 = np.mean(x2)
+#     delta = abs(mean1-mean2)
+#     # random.shuffle(l)
+#     t_obs = abs(delta)
+#     print("t_obs = ")
+#     print(t_obs)
+#     t = []
+#     for i in range(0,noOfPerms):
+#         perm = np.random.permutation(l)
+#         x1 = perm[0:len(x1)]
+#         x2 = perm[len(x1):len(x1)+len(x2)]
+#         #print(x1)
+#         #print(x2)
+#         mean1 = np.mean(x1)
+#         mean2 = np.mean(x2)
+#         t.append(abs(mean1-mean2))
+#
+#
+#     # print(t[0:10])
+#     count = 0
+#     for t_i in t:
+#         if(t_i>t_obs):
+#             count = count + 1
+#     # print("count =")
+#     # print(count)
+#     p_value = float(count)/len(t)
+#     print("p-value from permutation test")
+#     print(p_value)
+#     return p_value
 
 
     
